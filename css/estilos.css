@@ -1,0 +1,227 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header > h1 {
+    margin-bottom: 0;
+}
+
+header > h1 > a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: rgb(240,93,80);
+}
+
+header > h1 > a:hover {
+    color: rgba(240,93,80,0.5);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar > ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar > ul > li {
+    margin-bottom: 0.5em;
+}
+
+.navbar > ul > li > a {
+    text-decoration: none;
+    color: rgb(0, 0, 25);
+    justify-content: center;
+}
+
+.navbar > ul > li > a:hover {
+    color: rgba(0, 0, 25, 0.5);
+}
+
+.navbar > ul > li.active > a {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.content {
+    margin: 0 15%;
+    color: rgb(0, 0, 25);
+}
+
+.content a {
+    text-decoration: none;
+    color: rgb(240, 93, 80);
+}
+
+.content a:hover {
+    color: rgba(240, 93, 80, 0.5);
+}
+
+.content blockquote, q {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content q {
+    font-style: italic;
+    quotes: "«" "»";
+}
+
+.content blockquote figcaption {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.content > .article-header {
+    text-align: center;
+    margin: 1.5em auto;
+}
+
+.content > .article-header > p {
+    margin: 0 20%;
+    line-height: 2em;
+    font-size: 1.3em;
+}
+
+.content > .article-header > h2 {
+    margin-top: 1.2em;
+    font-weight: normal;
+}
+
+.content > .article-header > time {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+.content > .article-header > h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.content > .media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content > .media > img {
+    width: 100%;
+}
+
+.content > .media > .media-video {
+    position: relative;
+    width: 50%;
+    padding-bottom: 28.125%;
+}
+
+.content > .media > .media-video > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.content > .media > figcaption {
+    text-align: center;
+    font-size: 0.7em;
+    padding: 1.3em;
+}
+
+.content > h3 {
+    margin-right: 45%;
+}
+
+.content i {
+    font-family: serif;
+}
+
+.content > .end-credits {
+    font-family: serif;
+    font-style: italic;
+    margin: 5% auto;
+}
+
+.content > ul.nobel-list {
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.content > ul.nobel-list > li {
+    list-style-image: url(/img/idioma.png);
+}
+
+.content > ul.nobel-list h2,
+.content > dl.motivation-list h2 {
+    display: inline;
+    color: rgba(0, 0, 25, 0.5);
+}
+
+.content > ul.nobel-list > li > ul > li {
+    list-style: square;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+.content > p.nobel-list-credits {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+.content > dl.motivation-list > dd {
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.content > dl.motivation-list > dd > span {
+    font-size: 1.2em;
+}
+
+footer {
+    margin-top: auto;
+    background: rgb(0, 0, 25);
+    color: rgb(255, 255, 255);
+}
+
+footer > ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 4em auto;
+}
+
+footer > ul li.icon-credits {
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 0.8em;
+}
+
+footer > ul li.icon-credits > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+footer > ul li.icon-credits > a:hover {
+    color: rgb(240, 93 ,80);
+}
