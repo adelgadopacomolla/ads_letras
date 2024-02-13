@@ -168,7 +168,7 @@ header > h1 > a:hover {
 }
 
 .content > ul.nobel-list > li {
-    list-style-image: url(/img/idioma.png);
+    list-style-image: url(../img/idioma.png);
 }
 
 .content > ul.nobel-list h2,
